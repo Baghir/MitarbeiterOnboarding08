@@ -1,0 +1,182 @@
+<form role="Formular Mitarbeiter-Onboarding" charset=utf-8>>
+
+<h1>Formular Mitarbeiter-Onboarding</h1>
+
+<p>
+	<div class="form-group">
+		<label for="Personalnummer">Personalnummer</label> <input class="form-control"
+			cam-variable-type="Integer" cam-variable-name="Personalnummer" name="Personalnummer"
+			required="true"/>
+</p>
+	
+<p>
+	<div class="form-group">
+		<label for="Nachname">Nachname</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="Nachname"
+			name="Nachname" required="true" />
+	</div>
+</p>
+	
+<p>	
+	<div class="form-group">
+		<label for="Vorname">Vorname</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="Vorname" name="Vorname"
+			required="true" type="Vorname" />
+	</div>
+</p>
+
+<p>
+	<div class="form-group">
+		<label for="email">Email</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="email" name="email"
+			required="true" type="email" />
+	</div>
+</p>
+	
+<p>
+	<div class="form-group" >
+	<label for="Geschlecht">Geschlecht</label>
+	<select cam-variable-type="String" cam-variable-name="Geschlecht"
+	name="Geschlecht">
+  <option value="maennlich">m&auml;nnlich</option>
+  <option value="weiblich">weiblich</option>
+	</select>
+	</div>
+</p>
+
+<p>	
+	<div class="form-group">
+	<label for="Abteilung">Abteilung</label>
+	<select cam-variable-type="String" cam-variable-name="Abteilung"
+			name="Abteilung" required="true">
+			
+	<option value="Auswahl">Bitte Ausw&auml;hlen</option>
+  <option value="Engineering">Engineering</option>
+  <option value="Data Science">Data Science</option>
+  <option value="Dev Ops / QA">Dev Ops / QA</option>
+  <option value="IT Ops">IT Ops</option>
+  <option value="Customer Service">Customer Service</option>
+  <option value="Marketing">Marketing</option>
+  <option value="Sales">Sales</option>
+  <option value="Finance / Legal">Finance / Legal</option>
+	</select>	
+	</div>
+</p>
+	
+<p>	
+	<div class="form-group">
+	<label for="Jobtitel">Jobtitel</label>
+	<select cam-variable-type="String" cam-variable-name="Jobtitel"
+			name="Jobtitel" required="true">
+			
+	<option value="Auswahl">Bitte Ausw&auml;hlen</option>
+  <option value="Senior Manager">Senior Manager</option>
+  <option value="Junior Manager">Junior Manager</option>
+  <option value="Risk Analyst">Risk Analyst</option>
+  <option value="Senior Accountant">Senior Accountant</option>
+  <option value="Analyst">Analyst</option>
+  <option value="Inside Sales Associate">Inside Sales Associate</option>
+  <option value="Commercial Manager">Commercial Manager</option>
+  <option value="Data Scientist">Data Scientist</option>
+  <option value="Solution Engineer">Solution Engineer</option>
+  <option value="Product Designer">Product Designer</option>
+  <option value="Commercial/Visual Designer">Commercial/Visual Designer</option>
+  <option value="Security Engineer">Security Engineer</option>
+  <option value="Data Engineer">Data Engineer</option>
+  <option value="Systems Architect">Systems Architect</option>
+  <option value="Product Manager">Product Manager</option>
+  <option value="Service Agent">Service Agent</option>
+  
+	</select>	
+	</div>
+</p>
+
+<p>
+	<div class="form-group">
+		<label for="Buddy">Buddy</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="Buddy" name="Buddy"
+			required="true" type="Buddy" />
+	</div>
+</p>
+
+<p>
+	<div class="form-group">
+		<label for="Vorgesetzter">Vorgesetzter</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="Vorgesetzter" name="Vorgesetzter"
+			required="true" type="Vorgesetzter" />
+	</div>
+</p>
+
+<p>
+	<div class="form-group">
+		<label for="Vertragsbeginn">Vertragsbeginn</label> <input class="form-control"
+			cam-variable-type="Date" cam-variable-name="Vertragsbeginn" name="Vertragsbeginn"
+			required="true" type="Vertragsbeginn" />
+	</div>
+</p>
+
+<p>
+<div class="form-group">
+		<label for="Erster Arbeitstag">Erster Arbeitstag</label> <input class="form-control"
+			cam-variable-type="Date" cam-variable-name="ErsterArbeitstag" name="ErsterArbeitstag"
+			required="true" type="ErsterArbeitstag" />
+	</div>
+<p>
+
+<p>
+	<div class="form-group" >
+	<label for="Sprache">Sprache</label>
+	<select required="true" cam-variable-type="String" cam-variable-name="Sprache"
+	name="Sprache"  selected = "Deutsch">
+  <option value="Deutsch">Deutsch</option>
+  <option value="Englisch">Englisch</option>
+    <option value="Russisch">Russisch</option>
+  <option value="Chinesisch">Chinesisch</option>
+    <option value="Spanisch">Spanisch</option>
+  <option value="Andere">Andere</option>
+	</select>
+	</div>
+</p>
+	
+	
+<p>
+	<div class="form-group">
+		<label for="Notebook">Gew&uuml;nschtes Notebook</label> <input class="form-control"
+			cam-variable-type="String" cam-variable-name="Notebook" name="Notebook"
+			required="true" type="Notebook" />
+	</div>
+</p>
+
+<p>
+<div class="form-group" >
+	<label for="gewOS">Gew&uuml;nschtes OS</label>
+	<select required="true" cam-variable-type="String" cam-variable-name="gewOS"
+	name="gewOS"  >
+  <option value="Windows 10">Windows 10</option>
+  <option value="MacOS">MacOS</option>
+  <option value="Ubuntu">Ubuntu</option>
+  <option value= "Mint">Mint</option>
+  <option value="SuSe">SuSe</option>
+<option value="Windows 98">Windows 98</option>
+</select>
+</div>
+</p>
+
+<p>
+<div class="form-group">
+
+		<label for="Telefon">Telefon ben&ouml;tigt?</label>
+		<input type="checkbox" name="telefon"
+			cam-variable-name="telefon" cam-variable-type="String" />
+</div>
+</p>
+	
+<p>
+<div class="form-group">
+		Visitenkarte ben&ouml;tigt? <input type="checkbox" name="Visitenkarte"
+			cam-variable-name="Visitenkarte" cam-variable-type="Boolean" />
+</div>
+</p>
+	
+	
+</form>
